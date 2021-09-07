@@ -33,7 +33,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid black;
 }
 
 .hour {
@@ -70,12 +70,5 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.row {
-  
-}
 
-#time-col,
-#tasks-col,
-#save-button {
-  border-color: black;
-}
+
