@@ -16,7 +16,7 @@ function timeBlockColor() {
     //Variables to check current time and select all textareas
     var timeNow = moment().format("H");
     var timeBlocks = $(".col-9");
-
+    
     //Loop to iterate through the time blocks by id
     //Each textarea has an id that corresponds to a 24 hour format of the time it represents
     //Loop adds the css class necessary to textarea to alert user of the past/present/future hour
@@ -72,5 +72,5 @@ function loadTask() {
 //Runs necessary functions and setInternval to update the colors on the calendar every 3 minutes
 currentDate();
 timeBlockColor();
-setInterval(timeBlockColor(), (1000 * 60) * 3);
+setInterval(timeBlockColor, (1000 *60) * 3);
 loadTask();
