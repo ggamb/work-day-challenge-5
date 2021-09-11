@@ -56,7 +56,8 @@ function saveTask(taskAdded, buttonIndex) {
 
     tasksArray = savedArray;
 
-    localStorage.setItem("tasks", JSON.stringify(savedArray));
+    localStorage.setItem("tasks", JSON.stringify(tasksArray));
+    document.location.reload();
 }
 
 //Function to load tasks in the corresponding time block based on what is in localStorage
