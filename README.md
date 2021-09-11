@@ -5,7 +5,7 @@
 
 This repository contains code that I refactored to create a work day scheduler that uses localStorage to persist across page reloads. The original code was a basic HTML outline, CSS, and links to third-party APIs (e.g. Bootstrap, Moment.js, Font Awesome, and Google Fonts). My contribution to this project was to update the HTML with a Bootstrap grid to create a work day calendar and implement the CSS and third-party APIs given to me. 
 
-Upon clicking a link to the work day scheduler, today's date will appear at the top of the page. If you are using this work day scheduler during the work day, the time blocks will be color coded to indicate whether the time block is in the past, present, or future. To use this work day scheduler, type a task into one of the time blocks and then hit the save button for that time. Once you hit save, your task will be saved into localStorage so that your tasks persist across page reloads.
+Upon clicking a link to the work day scheduler, today's date will appear at the top of the page. If you are using this work day scheduler during the work day (9 AM to 5 PM local time), the time blocks will be color coded to indicate whether the time block is in the past, present, or future. To use this work day scheduler, type a task into one of the time blocks and then hit the save button for that time. Once you hit save, your task will be saved into localStorage so that your tasks persist across page reloads.
 
 ## Challenge Reflection
 
