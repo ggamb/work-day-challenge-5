@@ -59,12 +59,11 @@ function saveTask(taskAdded, buttonIndex) {
     localStorage.setItem("tasks", JSON.stringify(savedArray));
 }
 
-//Function to load tasks based on what is in localStorage
+//Function to load tasks in the corresponding time block based on what is in localStorage
 function loadTask() {
     var savedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
     for(var i = 0; i < buttons.length; i++){
-        console.log(i);
         $(".col-9")[i].textContent = savedTasks[i];
     } 
 }
