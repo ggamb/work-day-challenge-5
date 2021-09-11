@@ -17,7 +17,7 @@ None! Click this link: [My website](https://ggamb.github.io/work-day-challenge-5
 
 ## Deployed Project
 
-Check out this screenshot: ![workDay](https://user-images.githubusercontent.com/86434738/132953407-c28ca92f-e945-47c0-a018-059fd67b69a6.png)
+Check out this screenshot: ![workDay](https://user-images.githubusercontent.com/86434738/132955510-2e62b287-007d-474d-9b77-ccafad486736.png)
 
 ## Credits
 
