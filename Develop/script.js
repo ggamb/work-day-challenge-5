@@ -69,8 +69,12 @@ function loadTask() {
 }
 
 
-//Runs necessary functions and setInternval to update the colors on the calendar every 3 minutes
+//Runs necessary functions to make the page work 
 currentDate();
 timeBlockColor();
-setInterval(timeBlockColor, (1000 *60) * 3);
 loadTask();
+
+
+//setInterval to update the colors on the calendar every 3 minutes and the date every hour
+setInterval(timeBlockColor, (1000 *60) * 3);
+setInterval(currentDate, (1000 *60) * 60);
